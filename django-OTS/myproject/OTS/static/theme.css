@@ -1,0 +1,412 @@
+/* theme.css */
+
+/* Reset some basic elements for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:  #4a90e2;
+    text-align: center;
+}
+
+/* Styling for the top section */
+.top {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Site name styling */
+.sitename h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Menu styling */
+.menu {
+    font-size: 18px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Content section styling */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Block content styling */
+.content h2 {
+    font-size: 22px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+/* Additional styles for candidate home page */
+
+/* Center content */
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Welcome message */
+.content h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Button links */
+.button-link {
+    margin: 10px 0;
+}
+
+.button-link a {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.button-link a:hover {
+    background-color: #357ABD;
+}
+
+/* Menu links on the top */
+.menu a {
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: #357ABD;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #2c62a3;
+}
+/* Additional styles for login form page */
+
+/* Center and style the form container */
+.all-forms {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Error message styling */
+#error {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Form unit styling */
+.form-unit {
+    margin: 15px 0;
+    text-align: left;
+}
+
+/* Labels styling */
+.form-unit label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input fields styling */
+.form-unit input[type="text"],
+.form-unit input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect on input fields */
+.form-unit input[type="text"]:focus,
+.form-unit input[type="password"]:focus {
+    border-color: #4a90e2;
+}
+
+/* Submit and reset button styling */
+.form-unit input[type="submit"],
+.form-unit input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-unit input[type="submit"]:hover,
+.form-unit input[type="reset"]:hover {
+    background-color: #357ABD;
+}
+.form-unit input[type="reset"]{
+    margin-left: 30%;
+}
+/* Adjust spacing for buttons */
+
+
+.form-unit .login , .form-unit .clear{
+    margin-top: 20px;
+
+}
+.form-unit .clear{
+    margin-inline-start: 4px;
+}
+
+/* Link styling */
+.all-forms p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.all-forms p a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.all-forms p a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for registration form page */
+/* Form label styling */
+.all-forms label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+/* Input fields styling */
+.all-forms input[type="text"],
+.all-forms input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    margin-bottom: 15px;
+}
+
+/* Focus effect on input fields */
+.all-forms input[type="text"]:focus,
+.all-forms input[type="password"]:focus {
+    border-color: #4a90e2;
+}
+
+/* Submit and reset button styling */
+.all-forms input[type="submit"],
+.all-forms input[type="reset"] {
+    margin-bottom: 15px;
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+/* Additional styles for the test paper page */
+
+/* Center and style the content container */
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Welcome message */
+.content h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Question styling */
+.question {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Option styling */
+.options {
+    margin-bottom: 10px;
+}
+
+.options input[type="radio"] {
+    margin-right: 8px;
+}
+
+.options label {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Submit button styling */
+.content input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.content input[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+/* Additional styles for the candidate result history page */
+
+/* Center and style the content container */
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Report card heading */
+.content h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Summary paragraph styling */
+.content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+th {
+    background-color: #4a90e2;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .sitename h1 {
+        font-size: 20px;
+    }
+
+    .menu {
+        font-size: 16px;
+    }
+}
